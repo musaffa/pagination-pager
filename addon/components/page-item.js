@@ -4,6 +4,7 @@ import { computed } from '@ember/object';
 export default Component.extend({
   tagName: 'li',
   classNameBindings: ['isActive:active', 'disabled'],
+  classNames: ['page-item'],
   seperator: '…',
   selected: null,
 
